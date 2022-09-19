@@ -1,4 +1,4 @@
-body, html {
+html {
     width: 100%;
     height: 100%;
     font-family: 'Rubik', sans-serif;
@@ -9,4 +9,13 @@ body, html {
     border-radius: 100%;
     border: 1px solid black;
     box-shadow: 0 0 0 3px hsl(0, 0%, 100%), 0 0 0 6px hsl(0, 0%, 90%);
+}
+
+.column .columns {
+    margin-bottom: 8em;
+}
+
+.is-128x12 {
+    border-radius: 6px;
+    box-shadow: 0 1px 10px 5px rgb(250 200 200);
 }
