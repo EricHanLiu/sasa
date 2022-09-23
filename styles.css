@@ -7,15 +7,14 @@ html {
 
 #title-image {
     border-radius: 100%;
-    border: 1px solid black;
-    box-shadow: 0 0 0 3px hsl(0, 0%, 100%), 0 0 0 6px hsl(0, 0%, 90%);
+    box-shadow: 0 1px 10px 5px rgb(250 200 200);
 }
 
 .column .columns {
     margin-bottom: 8em;
 }
 
-.is-128x12 {
+.is-128x128 {
     border-radius: 6px;
     box-shadow: 0 1px 10px 5px rgb(250 200 200);
 }
