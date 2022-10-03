@@ -57,5 +57,5 @@ for (let i = 0; i < numImages - 1; i += 2) {
     parent.appendChild(r);
 }
 
-AOS.init();
+window.addEventListener('load', function() { AOS.init(); });
 
